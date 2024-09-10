@@ -1,0 +1,158 @@
+:root{
+    --cor-primaria:black
+    --cor-secundaria:aqua
+    --cor-terciaria:white
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    justify-content: center;
+    
+}
+.cabecalho{
+    padding: 2% 0% 0% 18%;
+}
+.menu{
+    display: flex;
+    gap: 180px;
+}
+
+.itens-menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+
+
+
+h1{
+    color: white;
+    
+   
+
+}
+strong {
+    color: #22D4FD;
+    
+}
+
+
+
+.textoKenny {
+    color: white;
+    margin-left: 10%;
+    
+
+    
+}
+
+.kenny{
+    height: 300px;
+    margin-left: 10%;
+    /* margin-bottom: 30%; */
+
+}
+.kenny-fofo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 25%;
+}
+footer.rodape{
+    color: black;
+
+}
+.apresentacao{
+    padding: 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo_apresentacao{ /* Colore a borda com a cor vermelha */
+    margin: 10%;    /* Adiciona uma margem ao redor da section */
+    display: flex;  /* Adiciona o display flex */
+    justify-content: center; 
+
+
+    width: 800px;
+    flex-direction: column;
+    gap: 40px;
+}
+.nao{
+    color: red;
+}
+.titulo{
+    font-size: 36px;
+}
+.texto{
+    color: white;
+    font-size: 24px;
+}
+.botao{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.link1 img {
+    
+    width: 30px; /* Ajuste o valor para o tamanho desejado */
+    height: auto; /* Manter proporção */
+}
+.link1{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 250px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    padding: 21.5px  0;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+
+.naonao{
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 30%;
+}
+
+.subtitulo_links{
+font-family: 'Krona One', 'sans-serif';
+font-weight: 400;
+font-size: 24px;
+}
+.link1:hover{
+    background-color: #272727;
+}
+.rodape{
+    color: black;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+
+}
